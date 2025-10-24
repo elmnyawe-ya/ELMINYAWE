@@ -84,7 +84,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: none;  /* Hide default cursor for custom cursor */
+    cursor: default;  /* Normal cursor - custom cursor removed for performance */
   }
 
   html {
