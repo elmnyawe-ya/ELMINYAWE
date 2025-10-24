@@ -10,7 +10,7 @@ interface Symbol {
   delay: number;
 }
 
-const SYMBOLS = ['<>', '</>', '()', '{}', '=>', '//', '[]', '&&', '||', '!=', '==', '++', '--', '**', '??'];
+const SYMBOLS = ['<>', '</>', '{}',' ##', '//', '[]'];  // Reduced from 15 to 6 for better performance
 
 const FloatingSymbols: React.FC = () => {
   const [symbols, setSymbols] = useState<Symbol[]>([]);
