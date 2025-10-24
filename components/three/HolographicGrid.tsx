@@ -6,9 +6,9 @@ const HolographicGrid: React.FC = () => {
       {/* Animated grid background */}
       <div className="absolute inset-0 grid-background opacity-20" />
       
-      {/* Diagonal scan lines */}
+      {/* Diagonal scan lines - reduced for performance */}
       <div className="absolute inset-0">
-        {[...Array(5)].map((_, i) => (
+        {[...Array(3)].map((_, i) => (
           <div
             key={i}
             className="absolute h-px bg-gradient-to-r from-transparent via-neon-red/30 to-transparent"
