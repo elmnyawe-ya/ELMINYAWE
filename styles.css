@@ -277,3 +277,28 @@
   background: hsl(var(--neon-red) / 0.3);
   color: hsl(var(--foreground));
 }
+
+/* Interactive elements cursor */
+a, button, input, textarea, select {
+  cursor: pointer;
+}
+
+input, textarea, select {
+  cursor: text;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+}
+/* Interactive elements cursor */
+a, button, input, textarea, select {
+  cursor: pointer;
+}
+
+input, textarea, select {
+  cursor: text;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+}
