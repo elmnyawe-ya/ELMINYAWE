@@ -1,0 +1,26 @@
+{
+  "name": "ELMINYAWE - Futurist Developer Hub",
+  "short_name": "ELMINYAWE",
+  "description": "A futuristic developer hub with AI chat, holographic effects, and cutting-edge web technologies",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#ff0000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "start_url": "/"
+}

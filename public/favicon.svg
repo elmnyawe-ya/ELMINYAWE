@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark gradient background -->
+  <rect width="512" height="512" rx="128" fill="url(#grad1)"/>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Code bracket symbol in red -->
+  <path d="M160 140 L120 200 L120 312 L160 372" stroke="#FF0000" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <path d="M352 140 L392 200 L392 312 L352 372" stroke="#FF0000" stroke-width="24" fill="none" stroke-linecap="round"/>
+  
+  <!-- Forward slash -->
+  <path d="M280 140 L232 372" stroke="#FF0000" stroke-width="20" fill="none" stroke-linecap="round"/>
+  
+  <!-- Dots for decorative effect -->
+  <circle cx="140" cy="430" r="8" fill="#FF0000"/>
+  <circle cx="256" cy="450" r="8" fill="#FF0000"/>
+</svg>
